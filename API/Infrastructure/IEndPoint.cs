@@ -15,7 +15,7 @@ namespace GenHTTP.Api.Infrastructure
         /// </summary>
         /// <remarks>
         /// Can be a specific IPv4/IPv6 address or a more generic one
-        /// such as <see cref="IPAddress.Any" />.
+        /// such as <see cref="IPAddress" />.
         /// </remarks>
         IPAddress IPAddress { get; }
 

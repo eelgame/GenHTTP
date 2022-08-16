@@ -37,9 +37,9 @@ namespace GenHTTP.Modules.Razor.Providers
             return this;
         }
 
-        public RazorRendererBuilder<T> AddAssemblyReference<Type>()
+        public RazorRendererBuilder<T> AddAssemblyReference<TypeT>()
         {
-            _AdditionalAssemblies.Add(typeof(Type).Assembly);
+            _AdditionalAssemblies.Add(typeof(TypeT).Assembly);
             return this;
         }
 

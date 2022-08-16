@@ -9,7 +9,7 @@ namespace GenHTTP.Modules.Razor.Providers
 
         T AddUsing(string nameSpace);
 
-        T AddAssemblyReference<Type>();
+        T AddAssemblyReference<TypeT>();
 
         T AddAssemblyReference(Type type);
 

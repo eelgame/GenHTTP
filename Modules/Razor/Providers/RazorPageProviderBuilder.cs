@@ -70,9 +70,9 @@ namespace GenHTTP.Modules.Razor.Providers
             return this;
         }
 
-        public RazorPageProviderBuilder<T> AddAssemblyReference<Type>()
+        public RazorPageProviderBuilder<T> AddAssemblyReference<TypeT>()
         {
-            _AdditionalAssemblies.Add(typeof(Type).Assembly);
+            _AdditionalAssemblies.Add(typeof(TypeT).Assembly);
             return this;
         }
 
